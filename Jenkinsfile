@@ -1,6 +1,6 @@
 pipeline{
-    agent any{
-      stages{
+    agent any
+    stages{
         stage('Branch Based') {
           steps{
             script{
@@ -16,6 +16,5 @@ pipeline{
             }
           }
         }
-      }
     }
 }
