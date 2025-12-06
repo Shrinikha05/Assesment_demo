@@ -11,7 +11,7 @@ pipeline {
                     } else if (branch == "dev") {
                         echo "Development branch built..."
                     } else {
-                        echo "Running normally"
+                        echo "Running normally" without condition
                     }
                 }
             }
