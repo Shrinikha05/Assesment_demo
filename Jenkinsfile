@@ -7,9 +7,9 @@ pipeline {
                     def branch = env.BRANCH_NAME ?: 'unknown'
                     echo "branch we are in: ${branch}"
                     if (branch == "main") {
-                        echo "main branch built"
+                        echo "main branch built..."
                     } else if (branch == "dev") {
-                        echo "Development branch built"
+                        echo "Development branch built..."
                     } else {
                         echo "Running normally"
                     }
